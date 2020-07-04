@@ -1,0 +1,19 @@
+{
+  "name": "322assignment2-fouzan",
+  "version": "1.0.0",
+  "description": "Assignment2-Web322",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkarim20/Assignment2Web322.git"
+  },
+  "author": "Fouzan Karim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fkarim20/Assignment2Web322/issues"
+  },
+  "homepage": "https://github.com/fkarim20/Assignment2Web322#readme"
+}
