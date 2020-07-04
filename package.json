@@ -1,11 +1,10 @@
 {
   "name": "322assignment2-fouzan",
   "version": "1.0.0",
-  "description": "Assignment2-Web322",
+  "description": "Assignment 2",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/fkarim20/Assignment2Web322/issues"
   },
-  "homepage": "https://github.com/fkarim20/Assignment2Web322#readme"
+  "homepage": "https://github.com/fkarim20/Assignment2Web322#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.10"
+  },
+  "devDependencies": {}
 }
