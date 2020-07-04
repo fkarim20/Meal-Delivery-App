@@ -19,7 +19,7 @@ const favOrders = require('./favOrders');
 const bParser = require('body-parser');
 const valid = require('./validation');
 const multer = require('multer');
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 //use nodemailer to send emails
 const nodemailer = require('nodemailer');
 app.set('view engine', 'hbs');
