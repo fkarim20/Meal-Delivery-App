@@ -22,8 +22,9 @@ const multer = require('multer');
 const HTTP_PORT = process.env.port || 5000;
 //use nodemailer to send emails
 const nodemailer = require('nodemailer');
-app.engine('.hbs', exphbs({
-    extname: '.hbs',
+app.set('view engine', 'hbs');
+app.engine('hbs', exphbs({
+    extname: 'hbs',
     helpers: {
         count: function (context, options) {
             let selected = false;
@@ -44,7 +45,6 @@ app.engine('.hbs', exphbs({
 }));
 
 //files with .hbs extension uses template engine .hbs
-app.set('view engine', '.hbs');
 
 
 
