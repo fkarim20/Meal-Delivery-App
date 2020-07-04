@@ -1,0 +1,64 @@
+<div class="container col-8" style="margin-top: 20px;">
+    <div class="row no-gutters">
+        <div class="card"
+            style="height: 40vh !important; box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2) !important; transition: 0.3s !important">
+            <div class="row card-body">
+                <div class="col-sm-8 d-flex flex-column justify-content-center">
+                    <h5 class="card-title">Welcome {{Name}}!</h5>
+                    <p class="card-text">Checkout your order history, rewards and promotions available to you.
+                        Keep track of your monthly calories, your number of meals ordered from the site as
+                        get suggestions on what to order. </p>
+                </div>
+
+                <img class="col-sm-4" src="\fried-comfort-food-chicken.jpg" style="opacity: 0.8;  alt=" dashboard
+                    welcome image">
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h2 class="text-uppercase text-center mt-5" style="color: #111d5e !important; letter-spacing: 2px !important;">Your
+        Favorite Meals
+    </h2>
+    <div class="card-deck mt-5">
+
+        {{#each data}}
+        {{#if this.top_package}}
+        <div class="card" style="  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2) !important; transition: 0.3s !important;
+">
+
+            <h5 class="card-header" style="color:#111d5e !important; background-color: #ffbd69 !important"><i
+                    class="fab fa-1.5x fa-hotjar" style="color: #e25822;"></i>Top Package</h5>
+            <img class="card-img-top" src={{this.image}} alt="Card image cap" height="300" width="300">
+
+            <div class="card-body">
+                <h4 class=" card-title text-center" style="color:#111d5e !important;">{{this.title}}</h4>
+
+                <h4 class="itmPrice text-center"
+                    style="text-decoration: line-through !important; color:#111d5e !important;">
+                    ${{this.orig_price}} </h4>
+                <h4 class="sale text-center" style="color: #c70039 !important;"><b>${{this.price}}</b></h4>
+
+                <h6 class="card-subtitle text-center" style="color: #c70039 !important;">You Save ${{this.savings }}
+                    ({{this.percentOff}}%)
+                </h6>
+                <p class="card-text mt-3" style="color:#111d5e !important;">
+                <ul style="list-style-type: square !important;">
+                    <li>
+                        {{this.content}}
+                    </li>
+                </ul>
+                </p>
+                <div class="flex d-flex flex-column justify-content-center col-6 offset-3">
+                    <a class="btn buy mb-1" href="#" role="button" style="background-color:#c70039; color:#ffffff">Buy
+                        Now</a>
+                    <button type="button" class="btn text-white" style="background-color: #111d5e;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        {{/if}}
+        {{/each}}
+    </div>
+</div>
+</div>
