@@ -19,6 +19,7 @@ const favOrders = require('./favOrders');
 const bParser = require('body-parser');
 const valid = require('./validation');
 const multer = require('multer');
+const HTTP_PORT = process.env.port || 5000;
 //use nodemailer to send emails
 const nodemailer = require('nodemailer');
 app.engine('.hbs', exphbs({
@@ -44,7 +45,6 @@ app.engine('.hbs', exphbs({
 
 //files with .hbs extension uses template engine .hbs
 app.set('view engine', '.hbs');
-const HTTP_PORT = process.env.port || 8080;
 
 
 
@@ -154,4 +154,4 @@ app.use((req, res, next) => {
 })
 
 //Start the server for listening on HTTP_PORT
-app.listen(HTTP_PORT, '0.0.0.0');
+app.listen(HTTP_PORT, () => console.log(`Listening on ${ HTTP_PORT }`));
