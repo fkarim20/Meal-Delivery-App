@@ -46,10 +46,7 @@ app.engine('.hbs', exphbs({
 app.set('view engine', '.hbs');
 const HTTP_PORT = process.env.port || 8080;
 
-function onStart() {
-    console.log("We will be listening for requests on port:" + HTTP_PORT);
 
-}
 
 
 //route for homepage
@@ -157,4 +154,4 @@ app.use((req, res, next) => {
 })
 
 //Start the server for listening on HTTP_PORT
-app.listen(HTTP_PORT, onStart);
+app.listen(HTTP_PORT, '0.0.0.0');
