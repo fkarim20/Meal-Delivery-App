@@ -12,7 +12,7 @@ function compare(a, b) {
 //use express module in file
 const express = require('express');
 //Use handlebars.js module
-const exphbs = require('express-handlebars');
+const exphbs = require('handlebars');
 const app = express();
 const meals = require('./meals');
 const favOrders = require('./favOrders');
