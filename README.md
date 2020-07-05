@@ -1,5 +1,5 @@
 # Assignment2Web322
-Welcome to my meal delivery App.
+Welcome to my Meal Delivery App.
 
 This app contains a list of menu items, a registration and login form validated on the server side.
 
