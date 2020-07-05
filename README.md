@@ -1,5 +1,13 @@
 # Assignment2Web322
 Welcome to my Meal Delivery App.
+<p>The npm packages used to build this app are</p>
+<ol style="list-style-type: numbered">
+  <li>Express-Handlebars - for rendering views with templates</li>
+  <li>Nodemailer - for sending emails from a specific email address</li>
+  <li>body-parser -  for Node.js body parsing middleware</li>
+  <li>Nodemon - for restarting a Node.js application upon file modification</li>
+    <li>Express - for routing a web application</li>
+  </ol>
 
 This app contains a list of menu items, a registration and login form validated on the server side.
 <h2>Login Form</h2>
