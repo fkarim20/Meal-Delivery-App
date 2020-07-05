@@ -4,7 +4,7 @@ Welcome to my meal delivery App.
 This app contains a list of menu items, a registration and login form validated on the server side.
 
 <h2>Registration</h2>
-<hr />
+
 <ol>
 <p>For the registration form please fill out all the fields and click the submit button.
 This form will: </p>
