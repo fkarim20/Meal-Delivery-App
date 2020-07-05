@@ -3,17 +3,17 @@ Welcome to my Meal Delivery App.
 
 This app contains a list of menu items, a registration and login form validated on the server side.
 <h2>Login Form</h2>
-<ol>
+
 <p>For the login form please fill out all the fields and click the submit button.
 This form will: </p>
-<ol>
+<ol style="list-style-type: numbered">
 <li>
 Validate the email field is not empty
 </li>
 <li>
 Validate the password field is not empty
 </li>
-
+</ol>
   <h3>Response</h3>
   <h4>Validated Submission</h4>
   <p>If the request made is valid, submitting the form will redirect you to the meal_packages page.</p>
@@ -23,10 +23,9 @@ Validate the password field is not empty
 
 <h2>Registration Form</h2>
 
-<ol>
 <p>For the registration form please fill out all the fields and click the submit button.
 This form will: </p>
-<ol>
+<ol style="list-style-type: numbered">
 <li>
 Validate the first name field is not empty
 </li>
