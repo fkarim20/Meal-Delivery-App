@@ -7,12 +7,14 @@ This app contains a list of menu items, a registration and login form validated 
 <p>For the login form please fill out all the fields and click the submit button.
 This form will: </p>
 <ol style="list-style-type: numbered">
+  <em>
 <li>
 Validate the email field is not empty
 </li>
 <li>
 Validate the password field is not empty
 </li>
+  </em>
 </ol>
   <h3>Response</h3>
   <h4>Validated Submission</h4>
@@ -26,6 +28,7 @@ Validate the password field is not empty
 <p>For the registration form please fill out all the fields and click the submit button.
 This form will: </p>
 <ol style="list-style-type: numbered">
+  <em>
 <li>
 Validate the first name field is not empty
 </li>
@@ -44,6 +47,7 @@ Validate the email is not empty, matches the required format for a phone number 
 
 <li>Validate the password is not empty, the password matches with the first password entry in the input field above and it matches the format where it is between 8 and 32 charcters long and contains 
   at least one Capital letter, one number and one special character (!@#$%^&*-+{})</li>
+  </em>
   </ol>
     <h3>Response</h3>
    <h4>Validated Submission</h4>
