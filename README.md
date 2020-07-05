@@ -13,8 +13,8 @@ Validate the email field is not empty
 <li>
 Validate the password field is not empty
 </li>
-<li>
-  <h3>Respone</h3>
+
+  <h3>Response</h3>
   <h4>Validated Submission</h4>
   <p>If the request made is valid, submitting the form will redirect you to the meal_packages page.</p>
   <h4>Invalid Submission</h4>
@@ -46,6 +46,7 @@ Validate the email is not empty, matches the required format for a phone number 
 <li>Validate the password is not empty, the password matches with the first password entry in the input field above and it matches the format where it is between 8 and 32 charcters long and contains 
   at least one Capital letter, one number and one special character (!@#$%^&*-+{})</li>
   </ol>
+    <h3>Response</h3>
    <h4>Validated Submission</h4>
   <p>If the request made is valid, submitting the form will render the dashboard page welcoming you by your name as entered in the form.</p>
   <h4>Invalid Submission</h4>
